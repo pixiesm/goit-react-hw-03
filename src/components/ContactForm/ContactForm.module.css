@@ -1,0 +1,34 @@
+.wrapper {
+  border: 1px solid black;
+  place-content: center;
+  justify-content: center;
+  width: 500px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.label {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  & span {
+    font-weight: bold;
+  }
+}
+.button {
+  background-color: rgb(180, 243, 222);
+  border: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  &:hover {
+    background-color: rgb(136, 238, 204);
+  }
+}
+.field {
+  height: 25px;
+}

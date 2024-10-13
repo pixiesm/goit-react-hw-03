@@ -1,0 +1,28 @@
+.item {
+  border: 1px solid black;
+  justify-content: left;
+  padding: 5px 10px;
+  align-items: left;
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 30px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+.container {
+  margin-right: 15px;
+}
+
+.text {
+  font-size: medium;
+  & span {
+    font-weight: bold;
+  }
+}

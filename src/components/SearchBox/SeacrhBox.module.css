@@ -1,0 +1,13 @@
+.wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.input {
+  width: 500px;
+  height: 25px;
+}
